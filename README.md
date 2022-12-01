@@ -15,6 +15,17 @@ What commands would I need to change directory to the directory containing `scri
 Hint: You should use `cd` and `ls`.
 
 #### 1) Answer
+My process of finding script.js without using GUI
+1  pwd 
+2  ls
+3 cd MyDocuments
+4 ls MyDocuments
+5 cd Projects (Although I tried looking in Scripts first but did not find it there)
+6 ls Projects
+7 cd MyFirstWebsite
+8 ls MyFirstWebsite
+9 cd scripts
+10 ls scripts - found it! scripts.js
 
 <!-- Write your answer here -->
 
@@ -27,8 +38,15 @@ Next, I want to try and find the photo of my hotel from my holiday in July that 
 **Note**: You should do this by moving from where you are after completing the previous task.
 
 #### 2) Answer
+I moved back with
+1 cd ..x2 back to Projects /back to MyDocuments
+2 ls MyDocuments
+3 cd Photos
+4 ls Photos
+5 cd and ls HolidayJuly
+6 Found cyf.png
 
-<!-- Write your answer here -->
+<!-- Write your answer here --> 
 
 ### 3) Counting Script
 
@@ -42,7 +60,7 @@ You can run the script by typing
 
 ```
 ./count_to_100.sh
-```
+
 
 when you're in the correct directory.
 
